@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bg-img {
+  overflow: hidden;
+  background-image: url(../images/project-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  border: 1px transparent;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  text-align: center;
+  border: 0;
+  font-weight: 500;
+  border-color: transparent;
+}
+
+p {
+  font-size: x-large;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}

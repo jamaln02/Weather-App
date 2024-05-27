@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="bg-img">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5 class="myCity text-warning"></h5>
+          <h5 class="myTime text-warning"></h5>
+          <input
+            class="p-1 m-1 w-100 border-1 rounded-2"
+            type="text"
+            placeholder="Please Enter City Name"
+          />
+          <button class="btn btn-outline-light m-2 w-50">show</button>
+        </div>
+        <div class="d-flex flex-row justify-content-around align-items-center">
+          <img class="myImg" src="images/clouds.png" width="20%" alt="" />
+          <h1 class="myWeather text-light">Weather</h1>
+        </div>
+        <h2 class="myTemp text-light">Temp</h2>
+        <div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5 class="text-warning mt-2">Additional Information</h5>
+          </div>
+          <div class="w-100 d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-column m-5">
+              <h5 class="text-warning">Wind Speed</h5>
+              <p class="windSpeed"></p>
+            </div>
+            <div class="d-flex flex-column m-5">
+              <h5 class="text-warning">Humidity</h5>
+              <p class="humidity"></p>
+            </div>
+            <div class="d-flex flex-column m-5">
+              <h5 class="text-warning">Pressure</h5>
+              <p class="pressure"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScript/bootstrap.bundle.min.js"></script>
+    <script src="javaScript/main.js"></script>
+  </body>
+</html>
